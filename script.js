@@ -17,9 +17,11 @@ function renderNoteItem(noteOnj) {
     const li = documtent.createElement(`li`)
     li.id = noteObj.id
     li.classlist.add(
-        
+
     )
 }
-    fetch(url)
-    .then(response => response.json())
-    .then(data => console.log(data))
+renderNoteText(li, noteObj)
+note.appendChild(li)
+
+function renderNoteText(li, noteObj) {
+    li.innerHTML = `
