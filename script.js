@@ -24,4 +24,27 @@ renderNoteText(li, noteObj)
 note.appendChild(li)
 
 function renderNoteText(li, noteObj) {
-    li.innerHTML = `
+    const li = document.createElement()
+
+function createNote(noteEl)
+    fetch(url, {
+       method: 'POST',
+       headers: { `Content-Type` :`application/json` },
+       body: JSON.stringfly({
+            title: noteText, 
+            body: noteText, 
+            created_at: moment().format(MM,DD,YYYY)
+       }) 
+    })
+
+
+    function updateNote(noteEl)
+    fetch(url, {
+       method: 'DELETE',
+       headers: { Content-Type : application/json`},
+       body: JSON.stringfly({
+            title: noteText, 
+            body: noteText, 
+            created_at: moment().format(MM,DD,YYYY)
+       }) 
+    })
