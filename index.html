@@ -4,9 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="main.css">
   <title>Notes</title>
 </head>
-<body>
+<body class="avenir pa4">
   
+  <h1 class="f3 f2-m f1-l fw2 black-90 mv3">Notes</h1>
+  
+
+<form id="notes-form" class="pv4">
+    <div class="form-field">
+      <input
+        id="notes-text"
+        class="pa3 w-100 measure"
+        text="text"
+        placeholder="Enter your note here"
+        required
+      />
+    </div>
+    
+   <div class="form-field">
+     <button 
+      id="save-note"
+      type="submit"
+      class="mt3 f6 ph3 pv2 mb2 dib white bg-light-pink"
+     >
+      Save note
+      </button>
+   </div>
+  </form>
+  <section id="notes" class="pa3"
+   <ul id="note-list" class="list pl0 measure" ></ul>
+</section>
 </body>
 </html>
